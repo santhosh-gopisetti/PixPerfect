@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Blending Tool</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="../../p5.FIP.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=ADLaM Display' rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="blend.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Image Blending Tool</h1>
+    </header>
+    
+    <main class="main-content">
+        <div id="controls">
+            <div class="choose">
+                <input type="file" id="imageUpload1" accept="image/*">
+                <input type="file" id="imageUpload2" accept="image/*">
+            </div>
+            <div class="mix">
+                <select id="blendselect" onchange="getvalue();">
+                    <option value="4">Screen</option>
+                    <option value="5">Overlay</option>
+                    <option value="6">Darken</option>
+                    <option value="7">Lighten</option>
+                    <option value="8">Difference</option>
+                    <option value="11">Dissolve</option>
+                    <option value="12">Hue</option>
+                </select>
+            </div>
+        </div>
+        <div id="canvas-container"></div>
+        <button id="downloadBtn">Download Edited Image</button>
+    </main>
+    
+    <script src="blend.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor</title>
+    <link href='https://fonts.googleapis.com/css?family=ADLaM Display' rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="../../p5.FIP.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Image Filters</h1>
+    </header>
+    
+    <main class="main-content">
+        <aside class="sidebar">
+            <div class="card">
+                <h2>Upload Image</h2>
+                <input type="file" id="imageUpload" accept="image/*">
+            </div>
+            
+            <div class="card">
+                <h2>Apply Filter</h2>
+                <select id="filterselect" onchange="getvalue()">
+                    <option value="none">Select a filter</option>
+                    <option value="Brightness">Brightness</option>
+                    <option value="differenceOfGaussian">Difference of Gaussian</option>
+                    <option value="Deform">Deform</option>
+                    <option value="Glitch">Glitch</option>
+                    <option value="Grayscale">Grayscale</option>
+                    <option value="MotionBlur">Motion Blur</option>
+                    <option value="Saturation">Saturation</option>
+                    <option value="Sepia">Sepia</option>
+                    <option value="Sharpen">Sharpen</option>
+                    <option value="Sketch">Sketch</option>
+                    <option value="Vignette">Vignette</option>
+                </select>
+            </div>
+            
+            <div class="card">
+                <a href="blend.html">
+                    <button id="blendb">Blending</button>
+                </a>
+            </div>
+
+            <div class="icon-group">
+              <div class="icon-pair">
+                <img src="horizontal.png" alt="Flip Horizontal">
+                <button id="fliph">Flip Horizontal</button>
+              </div>
+              <div class="icon-pair">
+                <img src="vertical.png" alt="Flip Vertical">
+                <button id="flipv">Flip Vertical</button>
+              </div>
+            </div>
+        </aside>
+
+        <section class="preview-section">
+            <div id="canvasContainer"></div>
+            <button id="downloadBtn">Download Edited Image</button>
+        </section>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
