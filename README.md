@@ -1,45 +1,58 @@
 PixPerfect - Full-Stack Image Editor Web App
-PixPerfect is a full-stack image editing web application built using React.js, Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript. It provides users with a powerful and interactive platform to upload, edit, and manage images with a wide range of features.
+PixPerfect is a full-stack image editing web application built using React.js, Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript. It allows users to upload, edit, manage, and download images with various powerful tools.
 
-Features
-User Authentication
-Users can sign up, log in, and manage their sessions securely.
+ Features
+     1.User Authentication
 
-Image Upload and Storage
-Users can upload images and view them in their personal image section.
+           Users can sign up, log in, and manage sessions securely.
 
-Image Editing Tools
+    2.Image Upload and Storage
 
-Crop, rotate, and flip images
+          Users can upload images and view them in their personal image section.
 
-Add text to images
+    3.Image Editing Tools
 
-Draw freely on images
+          Crop images
 
-Overlay and blend images
+          Rotate images
 
-Adjust brightness, contrast, and saturation
+          Flip images
 
-Apply preset filters
+          Add text to images
 
-Editing Utilities
+          Draw freely on images
 
-Undo and redo changes
+          Overlay and blend other images
 
-Live preview while editing
+          Adjust brightness, contrast, and saturation
 
-Image Management
+          Apply preset filters
 
-Save edited images to your personal gallery
+     4.Editing Utilities
 
-Download edited images
+          Undo and redo image changes
 
-Tech Stack
-Frontend: React.js, HTML, CSS, JavaScript
+          Live preview while editing
 
-Backend: Node.js, Express.js
+     5.Image Management
 
-Database: MongoDB
+          Save edited images to user’s image section
+
+          Download the final edited images
+
+2.Tech Stack
+      Frontend:
+
+         HTML,CSS,Javascript,React.js
+
+
+     Backend:
+
+         Node.js,Express.js
+
+     Database:
+
+         MongoDB
 
 
 
