@@ -1,63 +1,54 @@
-PixPerfect - Full-Stack Image Editor Web App
-PixPerfect is a full-stack image editing web application built using React.js, Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript. It allows users to upload, edit, manage, and download images with various powerful tools.
+# 🖼️ Full Stack Image Editor
 
- Features : 1.User Authentication
+A full-stack web application that lets users upload, edit, and download images with a wide range of features like filters, drawing, text, blending, and more. Users can also save their edited images to a personal image library after logging in.
 
-           Users can sign up, log in, and manage sessions securely.
+## 🚀 Live Demo
 
- 2.Image Upload and Storage
+👉 [Click here to view the live site](https://your-deployment-link.com)
 
-          Users can upload images and view them in their personal image section.
+---
 
- 3.Image Editing Tools
+## 🧩 Features
 
-          Crop images
+- 📤 Upload images from device  
+- 🔁 Rotate and flip images  
+- 🖼️ Overlay another image  
+- 🎨 Draw on image with color selection  
+- 🔤 Add text anywhere on the image  
+- 🧪 Apply image blending techniques  
+- 🌈 Adjust brightness, contrast, saturation, and blur  
+- 🎛️ Apply predefined filter presets  
+- 💾 Save edited images in the **Images section** (user-specific)  
+- ⬇️ Download the final edited image  
+- 🔐 User authentication (Sign up / Log in)
 
-          Rotate images
+---
 
-          Flip images
+## 🛠️ Tech Stack
 
-          Add text to images
+### Frontend
+- React.js (with Vite)
+- Tailwind CSS
+- HTML Canvas API
 
-          Draw freely on images
+### Backend
+- Node.js
+- Express.js
+- MongoDB (via Mongoose)
+- Multer (for image handling)
+- JWT (for authentication)
+- bcrypt (for password hashing)
 
-          Overlay and blend other images
+---
 
-          Adjust brightness, contrast, and saturation
+## 🧠 How It Works
 
-          Apply preset filters
+1. Users sign up or log in to access the editor.
+2. Upload an image, apply various edits in real-time using the Canvas API.
+3. Preview or save the edited image to the user's image library.
+4. Download the final version with one click.
 
-  4.Editing Utilities
+---
 
-          Undo and redo image changes
+## 📂 Project Structure
 
-          Live preview while editing
-
-   5.Image Management
-
-          Save edited images to user’s image section
-
-          Download the final edited images
-
-2.Tech Stack
-   Frontend:
-
-         HTML,CSS,Javascript,React.js
-
-
-   Backend:
-
-         Node.js,Express.js
-
-   Database:
-
-         MongoDB
-
-
-
-
-
-
-
-DEMO VIDEO
-[Watch demo video](https://drive.google.com/file/d/1m51Q1iRPizSoNGQzjMTdOXvx7xFPPLTZ/view?usp=drivesdk)
