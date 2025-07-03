@@ -1,6 +1,6 @@
-#  Full Stack Image Editor
+#  PIXPERFECT
 
-A full-stack web application that lets users upload, edit, and download images with a wide range of features like filters, drawing, text, blending, and more. Users can also save their edited images to a personal image library after logging in.
+PixPerfect is a full-stack image editing web application built using React.js, Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript. It provides users with a powerful and interactive platform to upload, edit, and manage images with a wide range of features.
 
 ##  Live Demo
 
